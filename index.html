@@ -102,6 +102,10 @@
 		adjustCodePosition();
 		$("#code").typewriter();
 	}
+
+	document.addEventListener('click', function() {
+		document.querySelector('audio').play();
+	}, { once: true });
 </script>
 </body>
 </html>
